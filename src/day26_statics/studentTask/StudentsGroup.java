@@ -1,6 +1,7 @@
 package day26_statics.studentTask;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class StudentsGroup { // StudentsGroup HAS A Student
 
@@ -23,6 +24,10 @@ public class StudentsGroup { // StudentsGroup HAS A Student
         // takes name, age , gender, id of student, creates students object by usind the given info, then the student object to the array
         students.add(new Student(name, age , gender, id));
 
+    }
+
+    public void addStudents(Student[] students){
+        this.students.addAll(Arrays.asList(students));
     }
 
     public void removeStudent(String id){

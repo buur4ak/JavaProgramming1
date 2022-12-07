@@ -9,6 +9,17 @@ public class TestObjects {
         Student student4 = new Student("Mehmet", 25, 'M', "D43");
         Student student5 = new Student("Sebastian", 23, 'M', "E27");
 
+
+        StudentsGroup group1 = new StudentsGroup("Java Turtles",1);
+
+        System.out.println(group1);
+
+        group1.addStudent(student1);
+        group1.addStudent(student2);
+        group1.addStudent(student3);
+        group1.addStudent(student4);
+        group1.addStudent(student5);
+
     }
 
 }
