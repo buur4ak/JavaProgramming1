@@ -30,6 +30,17 @@ public class Car {
         this(make,model,color,year);
         this.price = price;
     }
+
+
+    public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                '}';
+    }
 }
 
 
