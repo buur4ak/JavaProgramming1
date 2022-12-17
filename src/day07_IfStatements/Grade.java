@@ -1,8 +1,13 @@
 package day07_IfStatements;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Grade {
 
     public static void main(String[] args) {
+
+
+        System.out.println();
 
         char grade = 'B';
 
@@ -27,4 +32,6 @@ public class Grade {
 
 
     }
+
+
 }
