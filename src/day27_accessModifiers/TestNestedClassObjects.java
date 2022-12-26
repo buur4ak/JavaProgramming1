@@ -10,7 +10,5 @@ public class TestNestedClassObjects {
         Car.StaticInnerClass obj3 = new Car.StaticInnerClass();
 
 
-
-
     }
 }
