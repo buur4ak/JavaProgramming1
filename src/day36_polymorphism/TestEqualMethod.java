@@ -13,6 +13,20 @@ public class TestEqualMethod {
         System.out.println(circle1.equals(circle3)); // false
 
 
+        System.out.println("-----------------------------------------------------------------");
+
+        IPhone iphone1 = new IPhone("Apple","Iphone 12","Medium","Black",900);
+
+        IPhone iphone2 = new IPhone("Apple","Iphone 12","Medium","White",900);
+
+
+        System.out.println( iphone1.equals(iphone2));
+
+        System.out.println("-----------------------------------------------------------------");
+
+
+
+
     }
 
 }
