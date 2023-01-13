@@ -6,6 +6,7 @@ import day29_inheritance.animalTask.Dog;
 import day30_inheritance.phoneTask.Nokia;
 import day30_inheritance.phoneTask.Phone;
 import day33_abstraction.employeeTask.*;
+import day35_polymorphism.transpotationTask.AutoPilot;
 import day35_polymorphism.transpotationTask.Electric;
 import day35_polymorphism.transpotationTask.Tesla;
 
@@ -65,7 +66,7 @@ public class ReferenceTypeCastings {
 
         electric.charge();
         ((Tesla)electric).selfDrive();
-        // ( (AutoPilot)electric ).selfDrive();
+        ( (AutoPilot)electric ).selfDrive();
 
 
         System.out.println("-------------------------------------------------------------");
