@@ -64,6 +64,7 @@ public class Pizza {
 
         return totalPrice;
     }
+    
     public String toString() {
         return "Pizza{" +
                 "size=" + size +
@@ -80,15 +81,19 @@ public class Pizza {
             System.exit(1);
         }
 
-        if(size == ( (Pizza)obj).size ){
-            if(numberOfPepperoniTopping == ( (Pizza)obj).numberOfPepperoniTopping){
+        Pizza pizza = (Pizza) obj;
+
+        if(size == pizza.getSize() ) {
+            if (numberOfPepperoniTopping == pizza.getNumberOfPepperoniTopping()) {
                 return true;
             }
-            return false;
         }
+            return false;
 
 
     }
+
+
 }
 /*
 	1. Create a class named Pizza
