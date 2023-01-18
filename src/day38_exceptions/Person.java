@@ -6,7 +6,6 @@ public class Person {
     private int age;
     private final char gender;
 
-
     public Person(String name, int age, char gender) {
         setName(name);
         setAge(age);

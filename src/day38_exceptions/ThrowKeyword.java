@@ -36,9 +36,14 @@ public class ThrowKeyword {
             e.printStackTrace();
         }
 
+        System.out.println("-----------------------------------------------------------");
 
+        RuntimeException exception = new RuntimeException();
 
+        // throw exception;
+        // throw new RuntimeException();
 
+        // throw new Person("Jimmy", 45, 'M');
 
     }
 }
